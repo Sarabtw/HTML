@@ -1,89 +1,158 @@
-<!DOCTYPE html= "pt-BR">
+<!DOCTYPE html="pt-BR">
 <html>
-    <head><meta charset="UTF-8">
-        <title>Título da Página</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand">Navbar</a>
-            </div>
-          </nav></header>
-          <div class="container-fluid">
-            &emsp;
+
+<head>
+  <meta charset="UTF-8">
+  <title>Título da Página</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sara Lanches</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lanches</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Formas de pagamento
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">PIX</a></li>
+                  <li><a class="dropdown-item" href="#">Cartão</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Dinheiro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
           </div>
-        <main><div class="container">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Endereço</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Rua Passos, N° 2010, Bairro São João">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Cidade</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Estado</label>
-              <select id="inputState" class="form-select">
-                <option selected>Escolha</option>
-                <option>AC</option>
-                <option>AL</option>
-                <option>AP</option>
-                <option>AM</option>
-                <option>BA</option>
-                <option>CE</option>
-                <option>DF</option>
-                <option>ES</option>
-                <option>GO</option>
-                <option>MA</option>
-                <option>MT</option>
-                <option>MS</option>
-                <option>MG</option>
-                <option>PA</option>
-                <option>PB</option>
-                <option>PR</option>
-                <option>PE</option>
-                <option>PI</option>
-                <option>RJ</option>
-                <option>RN</option>
-                <option>RS</option>
-                <option>RO</option>
-                <option>RR</option>
-                <option>SC</option>
-                <option>SP</option>
-                <option>SE</option>
-                <option>TO</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">CEP</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Lembre de mim
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
-          </form>
         </div>
-       </main>
-        <footer></footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+      </nav>
+    </nav>
+    <p class="text-start"></p>
+  </header>
+  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Interessado(a) em uma oportunidade de emprego? Deixe aqui as
+    suas informações para que possamos te contatar.</div>
+
+  <div class="container-fluid">
+    &emsp;
+  </div>
+  <main>
+
+    &emsp;
+    &emsp;
+    &emsp;
+    &emsp;
+    &emsp;
+    &emsp;
+    &emsp;
+
+    <div class="container">
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nome</label>
+          <input type="email" class="form-control" id="inputName" placeholder="João Maria Brasileiro da Silva">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Idade</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Número de telefone</label>
+          <input type="password" class="form-control" id="inputCelphone" placeholder="+55 (31) 9 4002-8922">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua Passos, N° 2010, Bairro São João">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Estado</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">CEP</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+      <div class="alert alert-success" role="alert">
+       Dados enviados com sucesso!
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
